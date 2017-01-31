@@ -20,7 +20,7 @@ stroke((int)(Math.random()*255),0,(int)(Math.random()*255));
 }
 if(mouseX<300&& mouseX>100)
 {
-stroke((int)(Math.random()*255),0,0);
+stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 	
 }
 if(mouseX<500&& mouseX>300)
@@ -33,7 +33,7 @@ if(mouseX<700&& mouseX>500)
 stroke(0,(int)(Math.random()*255),(int)(Math.random()*255));
 	
 }
-
+		strokeWeight(5);
 		noFill();
 		triangle(x,y, x+len,y,x+len/2,y-len);
 	}
